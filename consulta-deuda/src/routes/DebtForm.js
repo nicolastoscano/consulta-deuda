@@ -1,7 +1,7 @@
 function DebtForm() {
   return (
     <div className=" h-screen">
-      <h1>hello</h1>
+      <h1>Formulario de consulta</h1>
     </div>
   );
 }

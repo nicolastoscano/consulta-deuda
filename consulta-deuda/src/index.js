@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Root from "./routes/root";
 import DebtForm from "./routes/DebtForm";
 import Register from "./routes/Register";
+import Payments from "./routes/Payments";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/registrarse",
         element: <Register />,
+      },
+      {
+        path: "/pagos",
+        element: <Payments />,
       },
     ],
   },

@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <div className=" bg-slate-500 w-full flex justify-center">
-      <div className="p-4 flex justify-between md:max-w-7xl md:px-8 md:items-center">
+    <div className=" bg-gray-800 w-full flex justify-center p-3">
+      <div className="flex justify-between w-full max-w-7xl items-center">
         <div>
           <img
             className="h-8 w-auto"
@@ -9,7 +9,7 @@ function Footer() {
             alt="Your Company"
           />
         </div>
-        <h1>hello</h1>
+        <h1 className=" text-gray-400">hello</h1>
       </div>
     </div>
   );
