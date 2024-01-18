@@ -1,7 +1,14 @@
+import PaymentCard from "../components/PaymentCard";
+import payments from "../solo-demo/DBPagos.json";
+
 function Payments() {
+  console.log(payments);
+
   return (
-    <div className=" h-screen">
-      <h1>Esto es pagos</h1>
+    <div className=" p-5">
+      {payments.map((payment) => (
+        <PaymentCard {...payment} />
+      ))}
     </div>
   );
 }

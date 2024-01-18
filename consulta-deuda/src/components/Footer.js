@@ -9,7 +9,7 @@ function Footer() {
             alt="Your Company"
           />
         </div>
-        <h1 className=" text-gray-400">hello</h1>
+        <h1 className=" text-gray-400">Nombre de la app</h1>
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { useState } from "react";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
@@ -69,9 +69,11 @@ function Navbar() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button className=" rounded-md bg-sky-600 p-2 font-medium text-sm">
-                  Iniciar sesion
-                </button>
+                <Link to={"ingresar"}>
+                  <button className=" rounded-md bg-sky-600 p-2 font-medium text-sm">
+                    Iniciar sesion
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

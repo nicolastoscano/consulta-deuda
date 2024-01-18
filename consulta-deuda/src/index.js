@@ -7,6 +7,7 @@ import Root from "./routes/root";
 import DebtForm from "./routes/DebtForm";
 import Register from "./routes/Register";
 import Payments from "./routes/Payments";
+import Login from "./routes/Login";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/pagos",
         element: <Payments />,
+      },
+      {
+        path: "/ingresar",
+        element: <Login />,
       },
     ],
   },
